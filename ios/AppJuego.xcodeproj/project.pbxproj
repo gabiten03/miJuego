@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AppJuegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AppJuegoTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FE25B7A141E04275BA9C1FF9 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65E108E4121463BAFE95A17 /* Comfortaa-Bold.ttf */; };
+		B5B6F1902D6D46CB9313FB1A /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34D693200B5B42AB989B5996 /* Comfortaa-Light.ttf */; };
+		FCEB6AF00AF24FC6B9561BA2 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B33A6B8D4E14BC29B0DB0BF /* Comfortaa-Medium.ttf */; };
+		8840FDD050484E7796237053 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 796D57DC5C354B70A5656FAA /* Comfortaa-Regular.ttf */; };
+		011A4C1E843E4B32A788E5D3 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 685909663A12440AA393D190 /* Comfortaa-SemiBold.ttf */; };
+		90D319BC5CEB4F2087609AF2 /* Fredoka-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB048A22DBE4864B7CEAF6E /* Fredoka-VariableFont_wdth,wght.ttf */; };
+		A041EA148848417C8A0402AB /* Fredoka_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1177305E35645F8B13C2C94 /* Fredoka_Condensed-Bold.ttf */; };
+		9C3943388DE54D588DFCDE08 /* Fredoka_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BB907427D974619A4533ED5 /* Fredoka_Condensed-Light.ttf */; };
+		0B6C11D180F54188B777EC37 /* Fredoka_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2A32B380A4242BDAC5FDB4F /* Fredoka_Condensed-Medium.ttf */; };
+		FF6E4D2B715F408F80F95482 /* Fredoka_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BF41C4C91A74157B4B7C3BC /* Fredoka_Condensed-Regular.ttf */; };
+		6F85DB1014FC4E60B1E23DD0 /* Fredoka_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B403245442564572BA24BCCF /* Fredoka_Condensed-SemiBold.ttf */; };
+		BA99837DE6704C00B185B539 /* Fredoka_Expanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E114F58A08F4EA392B8E9C9 /* Fredoka_Expanded-Bold.ttf */; };
+		5828705DD2BD49FA9D210F8D /* Fredoka_Expanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCCC897103FE433886D7DE38 /* Fredoka_Expanded-Light.ttf */; };
+		8B5B9D72CCB44A8BB0673980 /* Fredoka_Expanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7071B88C439343D395956E34 /* Fredoka_Expanded-Medium.ttf */; };
+		3C01CAE34F0248ABBD1FD807 /* Fredoka_Expanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD9DB40910347E9A87520BC /* Fredoka_Expanded-Regular.ttf */; };
+		FA1C4292B62041B68F2E2203 /* Fredoka_Expanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7542A4292F242C3ACBAB1E4 /* Fredoka_Expanded-SemiBold.ttf */; };
+		EE85F278A721405380940706 /* Fredoka_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F3CC973E054D108B864D87 /* Fredoka_SemiCondensed-Bold.ttf */; };
+		6AB013B3FEA2429D9255BB7D /* Fredoka_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4162A6722CE04C3AB6B64AE8 /* Fredoka_SemiCondensed-Light.ttf */; };
+		32D5AC2B8A7E41DA8A6807E2 /* Fredoka_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB62B650D95F4C549439CAA5 /* Fredoka_SemiCondensed-Medium.ttf */; };
+		82F8AC0A260440D492A691D3 /* Fredoka_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1132BA05980F4CC5B55C3C2B /* Fredoka_SemiCondensed-Regular.ttf */; };
+		F46180DE280D48968BF55BD7 /* Fredoka_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDDC06F306AE460BA98C1DA2 /* Fredoka_SemiCondensed-SemiBold.ttf */; };
+		0204AB750E044D5CB5E31157 /* Fredoka_SemiExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 345C6B52302D49FE99B418A5 /* Fredoka_SemiExpanded-Bold.ttf */; };
+		6A9C5BC4395B47639292C7BA /* Fredoka_SemiExpanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CBCFA33104442368F155D3B /* Fredoka_SemiExpanded-Light.ttf */; };
+		DEDE29420D8F4098A66B6241 /* Fredoka_SemiExpanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A2CF57AD1547C6B0D696B8 /* Fredoka_SemiExpanded-Medium.ttf */; };
+		2577992BBF874D428268BFE6 /* Fredoka_SemiExpanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5B163C27EA4A34AEAFC5F4 /* Fredoka_SemiExpanded-Regular.ttf */; };
+		AC7FD190DBC74FE897DB4599 /* Fredoka_SemiExpanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3AE4D41C24BD8B84C6C64 /* Fredoka_SemiExpanded-SemiBold.ttf */; };
+		EE43E8D38A8D4FE5AF0D94C4 /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B07324F40384267A5580137 /* Fredoka-Bold.ttf */; };
+		8692023F18404AA6B5AD8A83 /* Fredoka-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF2AE48A84ED4F78A0FFE2D6 /* Fredoka-Light.ttf */; };
+		6BB6F8CADCB44284B7633A8B /* Fredoka-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E35D0755AC4424191E3EF41 /* Fredoka-Medium.ttf */; };
+		6D1ECDE14F674C54A2CC6144 /* Fredoka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AFE8FF7167147E592B119A1 /* Fredoka-Regular.ttf */; };
+		ED7F82F2B2694A099856B112 /* Fredoka-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D729A5E5EBB4C98A7E52DBE /* Fredoka-SemiBold.ttf */; };
+		7A60A6606342417CAF5F6718 /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AD1AC465334897A3DD36A8 /* Fredoka-Bold.ttf */; };
+		26FC1B9D11C546B692A3688D /* Fredoka-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E58E6CBD29D245B0BC791F58 /* Fredoka-Light.ttf */; };
+		D9F9F4B0B85E45F2B4F29F19 /* Fredoka-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B18D165B5349483FBACBF683 /* Fredoka-Medium.ttf */; };
+		AEF564AA2BAE42B69DA25381 /* Fredoka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07836F0377D44AA7A494FCD8 /* Fredoka-Regular.ttf */; };
+		D49717CEE1934FC09A3C28C8 /* Fredoka-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBE83E988F9422CA2F7D286 /* Fredoka-SemiBold.ttf */; };
+		DF25EE05206C4F449889F231 /* Spinnaker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 076FAB9E48324D91B5F5C4DE /* Spinnaker-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AppJuego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AppJuegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppJuegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AppJuegoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppJuegoTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AppJuego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJuego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppJuego/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppJuego/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppJuego/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppJuego/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppJuego/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppJuego/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A65E108E4121463BAFE95A17 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Bold.ttf"; path = "../assets/fonts/Comfortaa-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34D693200B5B42AB989B5996 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Light.ttf"; path = "../assets/fonts/Comfortaa-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B33A6B8D4E14BC29B0DB0BF /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Medium.ttf"; path = "../assets/fonts/Comfortaa-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		796D57DC5C354B70A5656FAA /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Regular.ttf"; path = "../assets/fonts/Comfortaa-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		685909663A12440AA393D190 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; name = "Comfortaa-SemiBold.ttf"; path = "../assets/fonts/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DB048A22DBE4864B7CEAF6E /* Fredoka-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "Fredoka-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Fredoka-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1177305E35645F8B13C2C94 /* Fredoka_Condensed-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka_Condensed-Bold.ttf"; path = "../assets/fonts/static/Fredoka_Condensed/Fredoka_Condensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0BB907427D974619A4533ED5 /* Fredoka_Condensed-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka_Condensed-Light.ttf"; path = "../assets/fonts/static/Fredoka_Condensed/Fredoka_Condensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2A32B380A4242BDAC5FDB4F /* Fredoka_Condensed-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka_Condensed-Medium.ttf"; path = "../assets/fonts/static/Fredoka_Condensed/Fredoka_Condensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2BF41C4C91A74157B4B7C3BC /* Fredoka_Condensed-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka_Condensed-Regular.ttf"; path = "../assets/fonts/static/Fredoka_Condensed/Fredoka_Condensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B403245442564572BA24BCCF /* Fredoka_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka_Condensed-SemiBold.ttf"; path = "../assets/fonts/static/Fredoka_Condensed/Fredoka_Condensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E114F58A08F4EA392B8E9C9 /* Fredoka_Expanded-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka_Expanded-Bold.ttf"; path = "../assets/fonts/static/Fredoka_Expanded/Fredoka_Expanded-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CCCC897103FE433886D7DE38 /* Fredoka_Expanded-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka_Expanded-Light.ttf"; path = "../assets/fonts/static/Fredoka_Expanded/Fredoka_Expanded-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7071B88C439343D395956E34 /* Fredoka_Expanded-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka_Expanded-Medium.ttf"; path = "../assets/fonts/static/Fredoka_Expanded/Fredoka_Expanded-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BD9DB40910347E9A87520BC /* Fredoka_Expanded-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka_Expanded-Regular.ttf"; path = "../assets/fonts/static/Fredoka_Expanded/Fredoka_Expanded-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7542A4292F242C3ACBAB1E4 /* Fredoka_Expanded-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka_Expanded-SemiBold.ttf"; path = "../assets/fonts/static/Fredoka_Expanded/Fredoka_Expanded-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20F3CC973E054D108B864D87 /* Fredoka_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiCondensed-Bold.ttf"; path = "../assets/fonts/static/Fredoka_SemiCondensed/Fredoka_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4162A6722CE04C3AB6B64AE8 /* Fredoka_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiCondensed-Light.ttf"; path = "../assets/fonts/static/Fredoka_SemiCondensed/Fredoka_SemiCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB62B650D95F4C549439CAA5 /* Fredoka_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiCondensed-Medium.ttf"; path = "../assets/fonts/static/Fredoka_SemiCondensed/Fredoka_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1132BA05980F4CC5B55C3C2B /* Fredoka_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiCondensed-Regular.ttf"; path = "../assets/fonts/static/Fredoka_SemiCondensed/Fredoka_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDDC06F306AE460BA98C1DA2 /* Fredoka_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/static/Fredoka_SemiCondensed/Fredoka_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		345C6B52302D49FE99B418A5 /* Fredoka_SemiExpanded-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiExpanded-Bold.ttf"; path = "../assets/fonts/static/Fredoka_SemiExpanded/Fredoka_SemiExpanded-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CBCFA33104442368F155D3B /* Fredoka_SemiExpanded-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiExpanded-Light.ttf"; path = "../assets/fonts/static/Fredoka_SemiExpanded/Fredoka_SemiExpanded-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82A2CF57AD1547C6B0D696B8 /* Fredoka_SemiExpanded-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiExpanded-Medium.ttf"; path = "../assets/fonts/static/Fredoka_SemiExpanded/Fredoka_SemiExpanded-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB5B163C27EA4A34AEAFC5F4 /* Fredoka_SemiExpanded-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiExpanded-Regular.ttf"; path = "../assets/fonts/static/Fredoka_SemiExpanded/Fredoka_SemiExpanded-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0CD3AE4D41C24BD8B84C6C64 /* Fredoka_SemiExpanded-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka_SemiExpanded-SemiBold.ttf"; path = "../assets/fonts/static/Fredoka_SemiExpanded/Fredoka_SemiExpanded-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B07324F40384267A5580137 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka-Bold.ttf"; path = "../assets/fonts/static/Fredoka/Fredoka-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF2AE48A84ED4F78A0FFE2D6 /* Fredoka-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka-Light.ttf"; path = "../assets/fonts/static/Fredoka/Fredoka-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E35D0755AC4424191E3EF41 /* Fredoka-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka-Medium.ttf"; path = "../assets/fonts/static/Fredoka/Fredoka-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AFE8FF7167147E592B119A1 /* Fredoka-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka-Regular.ttf"; path = "../assets/fonts/static/Fredoka/Fredoka-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D729A5E5EBB4C98A7E52DBE /* Fredoka-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka-SemiBold.ttf"; path = "../assets/fonts/static/Fredoka/Fredoka-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5AD1AC465334897A3DD36A8 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; name = "Fredoka-Bold.ttf"; path = "../assets/fonts/Fredoka-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E58E6CBD29D245B0BC791F58 /* Fredoka-Light.ttf */ = {isa = PBXFileReference; name = "Fredoka-Light.ttf"; path = "../assets/fonts/Fredoka-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B18D165B5349483FBACBF683 /* Fredoka-Medium.ttf */ = {isa = PBXFileReference; name = "Fredoka-Medium.ttf"; path = "../assets/fonts/Fredoka-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07836F0377D44AA7A494FCD8 /* Fredoka-Regular.ttf */ = {isa = PBXFileReference; name = "Fredoka-Regular.ttf"; path = "../assets/fonts/Fredoka-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DBE83E988F9422CA2F7D286 /* Fredoka-SemiBold.ttf */ = {isa = PBXFileReference; name = "Fredoka-SemiBold.ttf"; path = "../assets/fonts/Fredoka-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		076FAB9E48324D91B5F5C4DE /* Spinnaker-Regular.ttf */ = {isa = PBXFileReference; name = "Spinnaker-Regular.ttf"; path = "../assets/fonts/Spinnaker-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AppJuegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AppJuegoTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AppJuegoTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AppJuego */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AppJuego;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AppJuego */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AppJuegoTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				598AECDE3D734858B30B08A4 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AppJuego.app */,
+				00E356EE1AD99517003FC87E /* AppJuegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598AECDE3D734858B30B08A4 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A65E108E4121463BAFE95A17 /* Comfortaa-Bold.ttf */,
+				34D693200B5B42AB989B5996 /* Comfortaa-Light.ttf */,
+				4B33A6B8D4E14BC29B0DB0BF /* Comfortaa-Medium.ttf */,
+				796D57DC5C354B70A5656FAA /* Comfortaa-Regular.ttf */,
+				685909663A12440AA393D190 /* Comfortaa-SemiBold.ttf */,
+				3DB048A22DBE4864B7CEAF6E /* Fredoka-VariableFont_wdth,wght.ttf */,
+				E1177305E35645F8B13C2C94 /* Fredoka_Condensed-Bold.ttf */,
+				0BB907427D974619A4533ED5 /* Fredoka_Condensed-Light.ttf */,
+				C2A32B380A4242BDAC5FDB4F /* Fredoka_Condensed-Medium.ttf */,
+				2BF41C4C91A74157B4B7C3BC /* Fredoka_Condensed-Regular.ttf */,
+				B403245442564572BA24BCCF /* Fredoka_Condensed-SemiBold.ttf */,
+				3E114F58A08F4EA392B8E9C9 /* Fredoka_Expanded-Bold.ttf */,
+				CCCC897103FE433886D7DE38 /* Fredoka_Expanded-Light.ttf */,
+				7071B88C439343D395956E34 /* Fredoka_Expanded-Medium.ttf */,
+				9BD9DB40910347E9A87520BC /* Fredoka_Expanded-Regular.ttf */,
+				F7542A4292F242C3ACBAB1E4 /* Fredoka_Expanded-SemiBold.ttf */,
+				20F3CC973E054D108B864D87 /* Fredoka_SemiCondensed-Bold.ttf */,
+				4162A6722CE04C3AB6B64AE8 /* Fredoka_SemiCondensed-Light.ttf */,
+				BB62B650D95F4C549439CAA5 /* Fredoka_SemiCondensed-Medium.ttf */,
+				1132BA05980F4CC5B55C3C2B /* Fredoka_SemiCondensed-Regular.ttf */,
+				FDDC06F306AE460BA98C1DA2 /* Fredoka_SemiCondensed-SemiBold.ttf */,
+				345C6B52302D49FE99B418A5 /* Fredoka_SemiExpanded-Bold.ttf */,
+				6CBCFA33104442368F155D3B /* Fredoka_SemiExpanded-Light.ttf */,
+				82A2CF57AD1547C6B0D696B8 /* Fredoka_SemiExpanded-Medium.ttf */,
+				FB5B163C27EA4A34AEAFC5F4 /* Fredoka_SemiExpanded-Regular.ttf */,
+				0CD3AE4D41C24BD8B84C6C64 /* Fredoka_SemiExpanded-SemiBold.ttf */,
+				0B07324F40384267A5580137 /* Fredoka-Bold.ttf */,
+				FF2AE48A84ED4F78A0FFE2D6 /* Fredoka-Light.ttf */,
+				6E35D0755AC4424191E3EF41 /* Fredoka-Medium.ttf */,
+				4AFE8FF7167147E592B119A1 /* Fredoka-Regular.ttf */,
+				3D729A5E5EBB4C98A7E52DBE /* Fredoka-SemiBold.ttf */,
+				D5AD1AC465334897A3DD36A8 /* Fredoka-Bold.ttf */,
+				E58E6CBD29D245B0BC791F58 /* Fredoka-Light.ttf */,
+				B18D165B5349483FBACBF683 /* Fredoka-Medium.ttf */,
+				07836F0377D44AA7A494FCD8 /* Fredoka-Regular.ttf */,
+				5DBE83E988F9422CA2F7D286 /* Fredoka-SemiBold.ttf */,
+				076FAB9E48324D91B5F5C4DE /* Spinnaker-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AppJuegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppJuegoTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AppJuegoTests;
+			productName = AppJuegoTests;
+			productReference = 00E356EE1AD99517003FC87E /* AppJuegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AppJuego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppJuego" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppJuego;
+			productName = AppJuego;
+			productReference = 13B07F961A680F5B00A75B9A /* AppJuego.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AppJuego" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AppJuego */,
+				00E356ED1AD99517003FC87E /* AppJuegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FE25B7A141E04275BA9C1FF9 /* Comfortaa-Bold.ttf in Resources */,
+				B5B6F1902D6D46CB9313FB1A /* Comfortaa-Light.ttf in Resources */,
+				FCEB6AF00AF24FC6B9561BA2 /* Comfortaa-Medium.ttf in Resources */,
+				8840FDD050484E7796237053 /* Comfortaa-Regular.ttf in Resources */,
+				011A4C1E843E4B32A788E5D3 /* Comfortaa-SemiBold.ttf in Resources */,
+				90D319BC5CEB4F2087609AF2 /* Fredoka-VariableFont_wdth,wght.ttf in Resources */,
+				A041EA148848417C8A0402AB /* Fredoka_Condensed-Bold.ttf in Resources */,
+				9C3943388DE54D588DFCDE08 /* Fredoka_Condensed-Light.ttf in Resources */,
+				0B6C11D180F54188B777EC37 /* Fredoka_Condensed-Medium.ttf in Resources */,
+				FF6E4D2B715F408F80F95482 /* Fredoka_Condensed-Regular.ttf in Resources */,
+				6F85DB1014FC4E60B1E23DD0 /* Fredoka_Condensed-SemiBold.ttf in Resources */,
+				BA99837DE6704C00B185B539 /* Fredoka_Expanded-Bold.ttf in Resources */,
+				5828705DD2BD49FA9D210F8D /* Fredoka_Expanded-Light.ttf in Resources */,
+				8B5B9D72CCB44A8BB0673980 /* Fredoka_Expanded-Medium.ttf in Resources */,
+				3C01CAE34F0248ABBD1FD807 /* Fredoka_Expanded-Regular.ttf in Resources */,
+				FA1C4292B62041B68F2E2203 /* Fredoka_Expanded-SemiBold.ttf in Resources */,
+				EE85F278A721405380940706 /* Fredoka_SemiCondensed-Bold.ttf in Resources */,
+				6AB013B3FEA2429D9255BB7D /* Fredoka_SemiCondensed-Light.ttf in Resources */,
+				32D5AC2B8A7E41DA8A6807E2 /* Fredoka_SemiCondensed-Medium.ttf in Resources */,
+				82F8AC0A260440D492A691D3 /* Fredoka_SemiCondensed-Regular.ttf in Resources */,
+				F46180DE280D48968BF55BD7 /* Fredoka_SemiCondensed-SemiBold.ttf in Resources */,
+				0204AB750E044D5CB5E31157 /* Fredoka_SemiExpanded-Bold.ttf in Resources */,
+				6A9C5BC4395B47639292C7BA /* Fredoka_SemiExpanded-Light.ttf in Resources */,
+				DEDE29420D8F4098A66B6241 /* Fredoka_SemiExpanded-Medium.ttf in Resources */,
+				2577992BBF874D428268BFE6 /* Fredoka_SemiExpanded-Regular.ttf in Resources */,
+				AC7FD190DBC74FE897DB4599 /* Fredoka_SemiExpanded-SemiBold.ttf in Resources */,
+				EE43E8D38A8D4FE5AF0D94C4 /* Fredoka-Bold.ttf in Resources */,
+				8692023F18404AA6B5AD8A83 /* Fredoka-Light.ttf in Resources */,
+				6BB6F8CADCB44284B7633A8B /* Fredoka-Medium.ttf in Resources */,
+				6D1ECDE14F674C54A2CC6144 /* Fredoka-Regular.ttf in Resources */,
+				ED7F82F2B2694A099856B112 /* Fredoka-SemiBold.ttf in Resources */,
+				7A60A6606342417CAF5F6718 /* Fredoka-Bold.ttf in Resources */,
+				26FC1B9D11C546B692A3688D /* Fredoka-Light.ttf in Resources */,
+				D9F9F4B0B85E45F2B4F29F19 /* Fredoka-Medium.ttf in Resources */,
+				AEF564AA2BAE42B69DA25381 /* Fredoka-Regular.ttf in Resources */,
+				D49717CEE1934FC09A3C28C8 /* Fredoka-SemiBold.ttf in Resources */,
+				DF25EE05206C4F449889F231 /* Spinnaker-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AppJuegoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AppJuego */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppJuegoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppJuego.app/AppJuego";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AppJuegoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppJuego.app/AppJuego";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AppJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AppJuego;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AppJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AppJuego;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppJuegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AppJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
